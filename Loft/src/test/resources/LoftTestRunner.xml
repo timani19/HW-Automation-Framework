@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Loft Web Automation" parallel="false">
+
+    <parameter name="url" value="https://www.loft.com"/>
+
+    <test name = "Loft Homepage Test">
+        <classes>
+            <class name="home.ClothingPage"/>
+            <class name="home.CreditCards"/>
+            <class name="home.Sale"/>
+            <class name="home.SearchBox"/>
+            <class name="home.StoreLocation"/>
+        </classes>
+    </test>
+
+</suite>
+
+

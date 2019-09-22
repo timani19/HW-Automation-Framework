@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="BarnsAndNoble Web Automation" parallel="false">
+
+    <parameter name="url" value="https://www.barnesandnoble.com"/>
+
+    <test name = "BN Homepage Test">
+        <classes>
+            
+            <class name="home.CheckSaleItems"/>
+            <class name="home.DropDown"/>
+            <class name="home.SearchBoxTest"/>
+            <class name="home.SignIn"/>
+            <class name="home.ToysPage"/>
+
+        </classes>
+    </test>
+
+</suite>
+
+
